@@ -8,12 +8,15 @@
   font-family: "fira";
 }
 
+body {
+  text-align: center;
+}
+
 .glyphicon {
   font-size: 1.5em;
 }
 
 ul {
-  text-align: center;
   list-style-type: none;
   margin: 1em 0;
   padding-left: 0;
@@ -67,7 +70,7 @@ section#branding-area {
 
 section#branding-area h1 {
   color: white;
-  text-align: center;
+
 }
 
 #visit-form {
@@ -83,7 +86,6 @@ section#branding-area h1 {
 
 #journey-to-space {
   color: white;
-  text-align: center;
   opacity: 0.6;
   background-image: url("../img/astronaut.png");
   background-repeat: no-repeat;
@@ -95,4 +97,35 @@ section#branding-area h1 {
 
 #journey-to-space p {
   font-size: 1.4em;
+}
+
+#activities .row{
+  background: rgba(226,226,226,1);
+  background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(100%, rgba(254,254,254,1)));
+  background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}
+
+#tent, #popcorn, #rover, #telescope {
+  background-position: bottom;
+  background-size: 55%;
+  padding-bottom: 30%;
+  background-repeat: no-repeat;
+}
+
+#tent {
+  background-image: url(../img/tent.png);
+}
+#popcorn {
+  background-image: url(../img/popcorn.png);
+}
+#rover {
+  background-image: url(../img/rover.png);
+}
+#telescope {
+  background-image: url(../img/telescope.png);
 }
