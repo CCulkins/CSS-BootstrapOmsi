@@ -80,3 +80,19 @@ section#branding-area h1 {
 #visit-form button, #visit-form select {
   margin-bottom: 0.5em;
 }
+
+#journey-to-space {
+  color: white;
+  text-align: center;
+  opacity: 0.6;
+  background-image: url("../img/astronaut.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: rgba(70, 142, 229, 0.8);
+  background-position: 0 2em;
+  padding-bottom: 10vh;
+}
+
+#journey-to-space p {
+  font-size: 1.4em;
+}
