@@ -2,15 +2,10 @@
 
 // Calls input from form-input.html
 
-$(document).ready(function(){
-
-  $("#input").submit(function(event){
-    event.preventDefault();
-    var input = ($("#blank").val());
-
-    var output = "";
-
-    $('#output').text(output);
-
-  });
-});
+$(function () {
+  $("#nav-toggle").click(function () {
+    $("#nav-toggle span").toggleClass("glyphicon-remove")
+    $("#nav-toggle span").toggleClass("glyphicon-menu-hamburger")
+    $("#nav-toggle span").toggleClass("active")
+  })
+})

@@ -19,6 +19,10 @@ ul {
   padding-left: 0;
 }
 
+ul:hover {
+  color: tomato;
+}
+
 li {
   display: inline-block;
   font-size: 1.2em;
@@ -28,4 +32,26 @@ li {
 
 .block {
   display: block;
+}
+
+h2 {
+  line-height: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+.excla {
+  font-size: 2em;
+}
+
+.active {
+  color: tomato;
 }
