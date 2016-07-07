@@ -1,1 +1,31 @@
 /*This file is for your custom css.  All yours*/
+@font-face {
+  font-family: "fira";
+  src: url(../fonts/fira-sans/FiraSans-Regular.otf);
+}
+
+* {
+  font-family: "fira";
+}
+
+.glyphicon {
+  font-size: 1.5em;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 1em 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2em;
+  padding: .25em;
+  margin: 0.25em;
+}
+
+.block {
+  display: block;
+}
