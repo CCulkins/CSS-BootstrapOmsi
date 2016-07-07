@@ -33,23 +33,23 @@
       <header>
         <div class="row">
           <div class="navbar-brand">
-          <img id="logo" src="img/omsi.png" alt="omsi logo"/>
+            <img id="logo" src="img/omsi.png" alt="omsi logo"/>
           </div>
-          <button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+          <button id="nav-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="nav"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
         </div>
-          <nav class="navbar-collapse collapse">
-            <div class="row">
-              <div class="col-xs-offset-2 col-xs-8">
-                <div class="nav navbar-nav">
-                  <ul>
-                    <li><span class="glyphicon glyphicon-tags block"></span>Buy Tickets</li>
-                    <li><span class="glyphicon glyphicon-question-sign block"></span>Help</li>
-                    <li><span class="block">Today's Hours</span>9:30am - 7:00am</li>
-                  </ul>
-                </div>
+        <nav class="navbar-toggleable-xs collapse">
+          <div class="row">
+            <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6">
+              <div class="nav navbar-nav">
+                <ul>
+                  <li><span class="glyphicon glyphicon-tags block"></span>Buy Tickets</li>
+                  <li><span class="glyphicon glyphicon-question-sign block"></span>Help</li>
+                  <li><span class="block">Today's Hours</span>9:30am - 7:00am</li>
+                </ul>
               </div>
+            </div>
               <div class="row">
-                <div class="attractionList col-xs-offset-2 col-xs-8">
+                <div class="attractionList col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6">
                   <ul>
                     <li><a href="#"><h2>Calendar</h2></a></li>
                     <li><a href="#"><h2>Attractions</h2></a></li>
@@ -63,19 +63,29 @@
                     <li><a href="#"><h2>Membership</h2></a></li>
                   </ul>
                   <ul>
-                    <li><a href="#">OMSI + Schools</a></li>
-                    <li><a href="#">For Museum Pros</a></li>
-                  </ul>
-                  <ul>
-                    <li><span class="excla glyphicon glyphicon-exclamation-sign block"></span></li>
-                    <li><span class="excla glyphicon glyphicon-exclamation-sign block"></span></li>
-                    <li><span class="excla glyphicon glyphicon-exclamation-sign block"></span></li>
-                    <li><span class="excla glyphicon glyphicon-exclamation-sign block"></span></li>
-                  </ul>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6">
+                      <li><a href="#">OMSI + Schools</a></li>
+                      <li><a href="#">For Museum Pros</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-6">
+                    <ul id="social-media">
+                      <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+                      <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+                      <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+                      <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+                    </ul>
+                  </div>
+                </div>
+
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-offset-1 col-xs-10">
+                <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-offset-0 col-xs-12">
                   <p class="excla">
                     Teachers, book an end-of-year field trip!
                   </p>
@@ -123,7 +133,7 @@
       </section>
       <section id="activities">
         <div class="row">
-          <div id="tent" class="col-xs-offset-1 col-xs-10">
+          <div id="tent" class="col-xs-offset-1 col-xs-10 col-sm-5">
             <h1>Camps &amp; Classes</h1>
             <p>
               Bigger and better than ever. See how we're turning the heat up this summer with brand new camps and classes.
@@ -132,7 +142,7 @@
           </div>
         </div>
         <div class="row">
-          <div id="rover" class="col-xs-offset-1 col-xs-10">
+          <div id="rover" class="col-xs-offset-1 col-xs-10 col-sm-5">
             <h1>Attractions</h1>
             <p>
               Tour our latest exhibit, get your hands dirty in a real laboratory, and catch a movie on a giant 4-story screen.
@@ -141,7 +151,7 @@
           </div>
         </div>
         <div class="row">
-          <div id="popcorn" class="col-xs-offset-1 col-xs-10">
+          <div id="popcorn" class="col-xs-offset-1 col-xs-10 col-sm-5">
             <h1>Theater</h1>
             <p>
               Other screens just won't do after catching a show in the state's biggest sounding, most tech-forward theater.
@@ -151,7 +161,7 @@
           </div>
         </div>
         <div class="row">
-          <div id="telescope" class="col-xs-offset-1 col-xs-10">
+          <div id="telescope" class="col-xs-offset-1 col-xs-10 col-sm-5">
             <h1>Events</h1>
             <p>
               From OMSI After Dark to giant festivals, see the museum like never before.
@@ -160,6 +170,118 @@
           </div>
         </div>
       </section>
+      <section id="beach">
+        <div class="row">
+          <div class="col-xs-offset-1 col-xs-10">
+            <h1>Yes, we're open. At the beach!</h1>
+            <p>
+              We've opened the doors of our new beachfront camp in Newport, so pack your bags and get ready for a summer of coastal adventures.
+            </p>
+            <button type="button" class="btn btn-primary" name="button">Explore</button>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="row">
+          <h1 data-toggle="collapse" data-target="#this">Visit OMSI</h1>
+          <div id="this" class="navbar-collapse collapse">
+            <ul>
+              <li><a href="#">Visitor Info</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Science Store</a></li>
+              <li><a href="#">Private Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h1 data-toggle="collapse" data-target=".navbar-collapse">Visit OMSI</h1>
+          <div class="navbar-collapse collapse">
+            <ul>
+              <li><a href="#">Visitor Info</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Science Store</a></li>
+              <li><a href="#">Private Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h1 data-toggle="collapse" data-target=".navbar-collapse">Visit OMSI</h1>
+          <div class="navbar-collapse collapse">
+            <ul>
+              <li><a href="#">Visitor Info</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Science Store</a></li>
+              <li><a href="#">Private Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h1 data-toggle="collapse" data-target=".navbar-collapse">Visit OMSI</h1>
+          <div class="navbar-collapse collapse">
+            <ul>
+              <li><a href="#">Visitor Info</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Science Store</a></li>
+              <li><a href="#">Private Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <h1 data-toggle="collapse" data-target=".navbar-collapse">Visit OMSI</h1>
+          <div class="navbar-collapse collapse">
+            <ul>
+              <li><a href="#">Visitor Info</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Calendar</a></li>
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Science Store</a></li>
+              <li><a href="#">Private Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <ul>
+            <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+            <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+            <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+            <li><span class="excla glyphicon glyphicon-exclamation-sign"></span></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-xs-offset-2 col-xs-8">
+            <form>
+              <div class="form-inline">
+                <label for="email">Subscribe to Our Newsletter</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" id="newsletter" placeholder="your email address">
+                    <div class="input-group-addon">
+                      <span id="tri" class="glyphicon glyphicon-triangle-right"></span>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-default" name="button">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </footer>
+
+      </div>
     </div> <!-- end container -->
   </body>
 </html>

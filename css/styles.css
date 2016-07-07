@@ -22,7 +22,7 @@ ul {
   padding-left: 0;
 }
 
-ul:hover {
+li:hover {
   color: tomato;
 }
 
@@ -70,7 +70,6 @@ section#branding-area {
 
 section#branding-area h1 {
   color: white;
-
 }
 
 #visit-form {
@@ -95,7 +94,7 @@ section#branding-area h1 {
   padding-bottom: 10vh;
 }
 
-#journey-to-space p {
+#journey-to-space p, #beach p {
   font-size: 1.4em;
 }
 
@@ -128,4 +127,61 @@ section#branding-area h1 {
 }
 #telescope {
   background-image: url(../img/telescope.png);
+}
+
+#beach {
+  color: white;
+  padding-bottom: 2%;
+  background-image: url("../img/beach-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .row:last-of-type{
+  padding-bottom: 5%;
+}
+
+footer, footer a{
+  color: white;
+}
+
+footer li.glyphicon {
+  display: inline;
+}
+
+footer h1 {
+  font-size: 1.4em;
+  padding-top: 1.5em;
+}
+
+footer ul, .input-group {
+  padding-bottom: 1.5em;
+}
+
+footer .row {
+  background-color: rgb(53, 53, 53);
+}
+
+.form-inline {
+  text-align: center;
+}
+
+#tri {
+  padding: none;
+  margin: none;
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: inline;
+  }
+
+  .attractionList li{
+    display: block;
+    text-align: left;
+  }
+  .nav-element {
+    text-align: left;
+  }
 }
